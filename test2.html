@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="{}" alt="" width="50" height="50" />
+    <script>
+      document.getElementsByTagName("img");
+      const test =
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iMjQwIiB2aWV3Qm94PSIwIDAgODAwIDI0MCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTbm93IGxvZ28iPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeDI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM0ZmMzZjciLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMWU4OGU1Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGZpbHRlciBpZD0icyIgeC0yPSItNTAlIiB5PSItNTAlIiB3aWR0aD0iMjAwJSIgaGVpZ2h0PSIyMDAiPgogICAgICA8ZmVEcm9wU2hhZG93IGR4PSIwIiBkeT0iNiIgc3RkRGV2aWF0aW9uPSIxMCIgZmxvb2QtY29sb3I9IiMwZDQ3YTEiIGZsb29kLW9wYWNpdHk9IjAuMTIiLz4KICAgIDwvZmlsdGVyPgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ0cmFuc3BhcmVudCIvPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYwLDQwKSIgZmlsdGVyPSJ1cmwoI3MpIj4KICAgIDxnIHRyYW5zZm9ybT0ic2NhbGUoMS4yKSI+CiAgICAgIDxnPgogICAgICAgIDxwb2x5Z29uIHBvaW50cz0iNjAsMCA2OCwzNiAxMDQsMzYgNzQsNTggODIsOTQgNjAsNzQgMzgsOTQgNDYsNTggMTYsMzYgNTIsMzYiIGZpbGw9InVybCgjZykiLz4KICAgICAgICA8Y2lyY2xlIGN4PSI2MCIgY3k9IjQ4IiByPSIxMCIgZmlsbD0iI2UzZjJmZGYiIG9wYWNpdHk9IjAuOSI+PC9jaXJjbGU+CiAgICAgIDwvZz4KICAgIDwvZz4KICA8L2c+CiAgPHRleHQgeD0iMjIwIiB5PSIxNDAiIGZvbnQtZmFtaWx5PSJTZWdvZSBVSSwgUm9ib3RvLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjcwMCIgZm9udC1zaXplPSI5NiIgZmlsbD0idXJsKCNnKSIgbGV0dGVyLXNwYWNpbmc9Ii0yIj5Tbm93PC90ZXh0PgogIDx0ZXh0IHg9IjIyMCIgeT0iMTg1IiBmb250LWZhbWlseT0iU2Vnb2UgVUlMLCBSb2JvdG8sIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNDAwIiBmb250LXNpemU9IjE4IiBmaWxsPSIjNjA3ZDhiIj5tb2Rlcm4g•IGNyaXNz •IGdlb21ldHJpYzwvdGV4dD4KPC9zdmc+";
+      const svgText = atob(test.split(",")[1]);
+      const blob = new Blob(svgText);
+
+      const url = URL.createObjectURL(blob);
+    </script>
+  </body>
+</html>
