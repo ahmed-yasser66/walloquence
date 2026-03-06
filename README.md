@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Walloquence 🖼️
 
-## Getting Started
+Walloquence is a modern, responsive wallpaper platform that lets users discover and download high-quality wallpapers. Built with Next.js and Tailwind CSS, it features intuitive category browsing and seamless theme switching.
 
-First, run the development server:
+## ✨ Features
 
-```bash
+- **Smart Categorization** - Browse wallpapers by:
+  - 🎲 Random - Discover unexpected gems
+  - ⏱️ Latest - Freshly added wallpapers  
+  - 📈 Toplist - Community favorites
+  - 🔥 Hot - Trending right now
+
+- **Modern UX** - Infinite scroll, responsive grid, and instant downloads
+- **Theme Toggle** - Smooth light/dark mode switching
+- **Mobile First** - Perfect experience on any device
+- **Fast & Performant** - Optimized with Next.js for speed
+
+## 🛠️ Tech Stack
+
+- **Framework** - Next.js 14 with App Router
+- **Styling** - Tailwind CSS for utility-first styling
+- **Icons** - Lucide React for clean, consistent icons
+- **Theming** - next-themes with system preference support
+- **Utilities** - clsx + tailwind-merge for class management
+
+## 🚀 Quick Start
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ahmed-yasser66/walloquence.git
+   cd walloquence
+Install dependencies
+
+bash
+npm install
+Start development server
+
+bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+text
+http://localhost:3000
+📁 Project Structure
+text
+walloquence/
+├── app/                    # Next.js app router pages
+│   ├── (pages)/           # Category pages (hot, latest, etc.)
+│   ├── (root)/            # Homepage components
+│   └── api/                # API routes for wallpaper data
+├── components/             # Reusable UI components
+│   ├── ui/                 # Base UI components
+│   └── web/                # Web-specific components
+├── hooks/                  # Custom React hooks
+├── lib/                    # Utility functions and API handlers
+├── public/                 # Static assets
+│   ├── fonts/              # Custom fonts
+│   └── images/             # Images and icons
+└── routes/                 # Route configuration
+🎨 Theme System
+Walloquence comes with a built-in theme system that:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌙 Respects system preferences
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+💾 Remembers user selection
 
-## Learn More
+🔄 Smooth transitions between themes
 
-To learn more about Next.js, take a look at the following resources:
+🎯 Consistent design in both modes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🤝 Contributing
+Contributions make the open-source community amazing! Here's how you can help:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Fork the repository
 
-## Deploy on Vercel
+Create a feature branch (git checkout -b feature/AmazingFeature)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Commit your changes (git commit -m 'Add AmazingFeature')
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+📝 License
+This project is open source and available under the MIT License.
+
+🙏 Acknowledgments
+Wallpaper data provided by Wallhaven API
+
+Icons by Lucide
+
+Built with Next.js
+
+<p align="center"> Made with ❤️ by <a href="https://github.com/ahmed-yasser66">Ahmed Yasser</a> </p> ```
