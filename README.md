@@ -26,23 +26,28 @@ Walloquence is a modern, responsive wallpaper platform that lets users discover 
 ## 🚀 Quick Start
 
 1. **Clone the repository**
-   ```bash
+   ```
    git clone https://github.com/ahmed-yasser66/walloquence.git
    cd walloquence
+   ```
 Install dependencies
 
-bash
+```
 npm install
+```
 Start development server
 
-bash
+```
 npm run dev
-Open your browser
+```
 
-text
+Open your browser
+```
 http://localhost:3000
+```
+
 📁 Project Structure
-text
+```
 walloquence/
 ├── app/                    # Next.js app router pages
 │   ├── (pages)/           # Category pages (hot, latest, etc.)
@@ -57,6 +62,8 @@ walloquence/
 │   ├── fonts/              # Custom fonts
 │   └── images/             # Images and icons
 └── routes/                 # Route configuration
+```
+
 🎨 Theme System
 Walloquence comes with a built-in theme system that:
 
@@ -91,4 +98,4 @@ Icons by Lucide
 
 Built with Next.js
 
-<p align="center"> Made with ❤️ by <a href="https://github.com/ahmed-yasser66">Ahmed Yasser</a> </p> ```
+<p align="center"> Made with ❤️ by <a href="https://github.com/ahmed-yasser66">Ahmed Yasser</a> </p>
