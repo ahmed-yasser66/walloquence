@@ -25,11 +25,11 @@ Walloquence is a modern, responsive wallpaper platform that lets users discover 
 
 ## 🚀 Quick Start
 
-1. **Clone the repository**
-   ```
-   git clone https://github.com/ahmed-yasser66/walloquence.git
-   cd walloquence
-   ```
+**Clone the repository**
+```
+git clone https://github.com/ahmed-yasser66/walloquence.git
+cd walloquence
+```
 Install dependencies
 
 ```
