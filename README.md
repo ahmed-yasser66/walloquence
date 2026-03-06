@@ -88,8 +88,10 @@ Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
+
 📝 License
 This project is open source and available under the MIT License.
+
 
 🙏 Acknowledgments
 Wallpaper data provided by Wallhaven API
@@ -98,4 +100,5 @@ Icons by Lucide
 
 Built with Next.js
 
+---
 <p align="center"> Made with ❤️ by <a href="https://github.com/ahmed-yasser66">Ahmed Yasser</a> </p>
